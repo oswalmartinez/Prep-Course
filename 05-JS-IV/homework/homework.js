@@ -6,6 +6,7 @@ function crearGato (nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
+
 }
 
 function agregarPropiedad (objeto, property) {
@@ -13,6 +14,7 @@ function agregarPropiedad (objeto, property) {
   // Devuelve el objeto
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
   // Tu código:
+
 }
 
 function invocarMetodo (objeto, metodo) {
@@ -20,6 +22,7 @@ function invocarMetodo (objeto, metodo) {
   // Invoca ese método
   // Nada necesita ser devuelto ("returned")
   // Tu código:
+  objeto 
 }
 
 function multiplicarNumeroDesconocidoPorCinco (objetoMisterioso) {
@@ -74,6 +77,7 @@ function agregarAmigo (usuario, nuevoAmigo) {
   // Agrega "nuevoAmigo" al final de ese array
   // Devuelve el objeto "usuario"
   // Tu código:
+ 
 }
 
 function pasarUsuarioAPremium (usuarios) {
@@ -82,6 +86,10 @@ function pasarUsuarioAPremium (usuarios) {
   // Define cada propiedad "esPremium" de cada objeto como "true"
   // Devuelve el array de usuarios
   // Tu código:
+  for (let usuarios in usuarios) {
+    usuario.esPremium = ture;
+  }
+  return usuarios;
 }
 
 function sumarLikesDeUsuario (usuario) {
@@ -91,6 +99,7 @@ function sumarLikesDeUsuario (usuario) {
   // Suma todos los likes de todos los objetos "post"
   // Devuelve la suma
   // Tu código:
+
 }
 
 function agregarMetodoCalculoDescuento (producto) {
